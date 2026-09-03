@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pritam Mondal | Cyber Security Student & Tool Builder</title>
+  <meta name="description" content="Personal Portfolio of Pritam Mondal - Third-year Cyber Security student exploring Ethical Hacking, Linux Systems, Networking, Python Automation, and AI Tools.">
+  <meta name="keywords" content="Pritam Mondal, Cyber Security, Ethical Hacking, Linux, Red Hat, RHEL, Arch Linux, Networking, Wireshark, Python, AI Projects">
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Dynamic Background Effects -->
+  <div class="bg-mesh"></div>
+  <div class="bg-grid-pattern"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="#hero" class="logo">
+        <div class="logo-icon" style="background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);">PM</div>
+        <span>Pritam Mondal</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#tryhackme" class="nav-link">TryHackMe</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-icon" id="themeToggle" aria-label="Toggle Light and Dark Mode"></button>
+        <a href="#contact" class="btn btn-primary btn-sm" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;">Hire Me</a>
+        <button class="btn-icon mobile-toggle" id="mobileToggle" aria-label="Mobile Navigation Toggle">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span id="heroBadgeText">🛡️ Cyber Security & AI Explorer</span>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text" id="heroName">Pritam Mondal</span>
+          </h1>
+          <div class="typewriter-box">
+            <span id="typewriterText"></span>
+            <span class="cursor"></span>
+          </div>
+          <p class="hero-description" id="heroDescription">
+            Third-year Cyber Security student exploring technology, building practical tools, and understanding how systems can be attacked, protected, and improved.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+          <div class="social-links" id="heroSocials"></div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-avatar-card">
+            <div class="hero-avatar-inner">
+              <img src="assets/pritam-avatar.png" alt="Pritam Mondal Avatar" class="hero-avatar-img" id="heroAvatarImg">
+            </div>
+            <div class="hero-floating-badge">
+              <div class="badge-icon">🛡️</div>
+              <div class="badge-text">
+                <strong>Cyber Security</strong>
+                <span>Student & Tool Builder</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Statistics -->
+    <section class="section" style="padding-top: 1rem; padding-bottom: 4rem;">
+      <div class="container">
+        <div class="stats-grid" id="statsGrid"></div>
+      </div>
+    </section>
+
+    <!-- About & Services Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">About Me</span>
+          <h2 class="section-title">Understanding Systems to Attack, Protect & Improve</h2>
+          <div class="section-description" id="aboutDetailedBio"></div>
+        </div>
+
+        <!-- Building Mindset Quote Banner -->
+        <div class="glass-card" id="buildingMindsetCard" style="margin-bottom: 3rem; padding: 2.2rem; border-color: rgba(16, 185, 129, 0.3);"></div>
+
+        <div class="services-grid" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Proficiency</span>
+          <h2 class="section-title">Skills & Stack</h2>
+          <p class="section-description">A curated breakdown of tools, frameworks, and technologies I work with daily.</p>
+        </div>
+
+        <div class="skills-filter" id="skillsFilter"></div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- TryHackMe CTF & Performance Diagram Section -->
+    <section class="section" id="tryhackme">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Cyber Security CTFs & Metrics</span>
+          <h2 class="section-title">TryHackMe Profile & Graph</h2>
+          <p class="section-description">Live CTF ranking, completed rooms analytics, and skill category progression diagram.</p>
+        </div>
+
+        <div id="tryhackmeContainer"></div>
+      </div>
+    </section>
+
+    <!-- Timeline Experience & Education -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Career Path</span>
+          <h2 class="section-title">Experience & Education</h2>
+          <p class="section-description">My professional journey building impact-driven software.</p>
+        </div>
+
+        <div class="timeline-container" id="experienceTimeline"></div>
+      </div>
+    </section>
+
+    <!-- Portfolio Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Featured Portfolio</span>
+          <h2 class="section-title">Recent Projects</h2>
+          <p class="section-description">Click on any project to explore architecture details, key features, and live links.</p>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Certifications & Achievements Section with Arrow Dropdown -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Verified Credentials</span>
+          <h2 class="section-title">Certificates & Badges</h2>
+          <p class="section-description">Click the arrow button below to expand and view all verified certificates.</p>
+        </div>
+
+        <!-- Arrow Dropdown Trigger Bar -->
+        <div class="cert-dropdown-header glass-card" id="certDropdownBtn">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div class="badge-icon" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald);">📜</div>
+            <div>
+              <strong style="font-size: 1.15rem; color: var(--text-primary); display: block;">View Verified Certificates & Credentials</strong>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">Practical Ethical Hacking, Cisco Networking, CRPO Ransomware Officer, Red Team, ARCX & AI</span>
+            </div>
+          </div>
+          <div class="arrow-toggle-btn" id="certArrowIcon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+        </div>
+
+        <!-- Collapsible Dropdown Container (Hidden by default) -->
+        <div class="cert-dropdown-drawer" id="certDropdownDrawer">
+          <div class="certificates-grid" id="certificatesGrid" style="padding-top: 1.5rem;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-description">Have a project in mind or looking for a software partner? Send me a message!</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="glass-card contact-info-card">
+            <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem;">Contact Information</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Feel free to reach out directly via email, phone, or LinkedIn. I usually respond within 24 hours.
+            </p>
+            <div id="contactInfoItems"></div>
+          </div>
+
+          <div class="glass-card">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" class="form-input" placeholder="e.g. sarah@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea id="message" class="form-textarea" placeholder="Tell me about your project or collaboration idea..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+              <div class="form-success-msg" id="contactSuccessMsg">
+                Thank you! Your message has been sent successfully. I will get back to you shortly.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true">
+    <div class="modal-content glass-card">
+      <button class="btn-icon modal-close" id="modalCloseBtn" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        © <span id="footerYear">2026</span> <strong id="footerName">Alex Vance</strong>. All rights reserved.
+      </div>
+      <div class="social-links">
+        <a href="#hero" class="btn-icon" aria-label="Back to Top" style="width: 38px; height: 38px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/portfolioData.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
