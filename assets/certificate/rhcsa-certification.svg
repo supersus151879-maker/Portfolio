@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rhcsaRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ee0000"/>
+      <stop offset="100%" stop-color="#b30000"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <pattern id="rhelPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 40 M 0 0 L 40 40" fill="none" stroke="#fee2e2" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="850" fill="url(#bgGrad)"/>
+  <rect width="1200" height="850" fill="url(#rhelPattern)"/>
+
+  <!-- Outer Double Border -->
+  <rect x="25" y="25" width="1150" height="800" fill="none" stroke="#ee0000" stroke-width="4" rx="8"/>
+  <rect x="35" y="35" width="1130" height="780" fill="none" stroke="#151515" stroke-width="1.5" rx="6"/>
+
+  <!-- Corner Decorative Accents -->
+  <path d="M 25 65 L 65 25 M 25 75 L 75 25" stroke="#ee0000" stroke-width="2"/>
+  <path d="M 1175 65 L 1135 25 M 1175 75 L 1125 25" stroke="#ee0000" stroke-width="2"/>
+  <path d="M 25 785 L 65 825 M 25 775 L 75 825" stroke="#ee0000" stroke-width="2"/>
+  <path d="M 1175 785 L 1135 825 M 1175 775 L 1125 825" stroke="#ee0000" stroke-width="2"/>
+
+  <!-- Top Header Branding Banner -->
+  <path d="M 35 35 L 1165 35 L 1165 140 L 35 140 Z" fill="#151515"/>
+  <path d="M 35 140 L 1165 140 L 1165 146 L 35 146 Z" fill="url(#rhcsaRed)"/>
+
+  <!-- Red Hat Fed Hat Logo Icon Graphic -->
+  <g transform="translate(70, 50)">
+    <rect x="0" y="0" width="62" height="62" rx="12" fill="url(#rhcsaRed)"/>
+    <path d="M 16 42 C 22 28, 40 28, 46 42 C 40 20, 22 20, 16 42 Z" fill="#ffffff"/>
+    <circle cx="31" cy="22" r="8" fill="#ffffff"/>
+  </g>
+
+  <text x="150" y="82" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="24" fill="#ffffff" letter-spacing="2">RED HAT TRAINING &amp; CERTIFICATION</text>
+  <text x="150" y="108" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="14" fill="#ff4d4d" letter-spacing="3">RED HAT CERTIFIED SYSTEM ADMINISTRATOR (RHCSA)</text>
+
+  <!-- Badge Tag -->
+  <rect x="940" y="65" width="180" height="36" rx="18" fill="rgba(238, 0, 0, 0.25)" stroke="#ee0000" stroke-width="1.5"/>
+  <text x="1030" y="88" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="13" fill="#ff4d4d" text-anchor="middle" letter-spacing="1">CERTIFIED RHCSA</text>
+
+  <!-- Certificate Title Header -->
+  <text x="600" y="235" font-family="'Georgia', serif" font-weight="700" font-size="38" fill="#151515" text-anchor="middle" letter-spacing="3">CERTIFICATE OF CERTIFICATION</text>
+  <text x="600" y="270" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="14" fill="#ee0000" text-anchor="middle" letter-spacing="4">RED HAT HEREBY CONFERS UPON</text>
+
+  <!-- Recipient Name -->
+  <text x="600" y="360" font-family="'Georgia', serif" font-weight="700" font-size="52" fill="#151515" text-anchor="middle">PRITAM MONDAL</text>
+  <line x1="300" y1="385" x2="900" y2="385" stroke="url(#rhcsaRed)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Certificate Description -->
+  <text x="600" y="440" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="18" fill="#334155" text-anchor="middle">the designation of official certification credential and title</text>
+  <text x="600" y="480" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="26" fill="#ee0000" text-anchor="middle" letter-spacing="1">Red Hat Certified System Administrator (RHCSA)</text>
+
+  <text x="600" y="525" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#64748b" text-anchor="middle">Having successfully passed rigorous hands-on performance exams in RHEL storage management,</text>
+  <text x="600" y="550" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#64748b" text-anchor="middle">LVM partition configuration, SELinux security policies, systemd services, and shell environment control.</text>
+
+  <!-- Gold Foil Seal Ribbon -->
+  <g transform="translate(600, 680)">
+    <path d="M -30 20 L -50 90 L -25 75 L 0 90 L -10 20 Z" fill="#b45309"/>
+    <path d="M 30 20 L 50 90 L 25 75 L 0 90 L 10 20 Z" fill="#d97706"/>
+    <circle cx="0" cy="0" r="55" fill="url(#goldGrad)" stroke="#b45309" stroke-width="3"/>
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="0" y="-10" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="11" fill="#78350f" text-anchor="middle" letter-spacing="1">RED HAT</text>
+    <text x="0" y="8" font-family="'Georgia', serif" font-weight="700" font-size="14" fill="#78350f" text-anchor="middle">RHCSA</text>
+    <text x="0" y="24" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="10" fill="#78350f" text-anchor="middle" letter-spacing="1">VERIFIED</text>
+  </g>
+
+  <!-- Left Signature Block -->
+  <g transform="translate(180, 650)">
+    <path d="M 10 25 Q 30 5, 50 30 T 90 20 T 130 35 T 170 15" fill="none" stroke="#151515" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="45" x2="220" y2="45" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="110" y="65" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#151515" text-anchor="middle">Randy Russell</text>
+    <text x="110" y="83" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="12" fill="#64748b" text-anchor="middle">VP, Global Certification, Red Hat</text>
+  </g>
+
+  <!-- Right Signature Block -->
+  <g transform="translate(800, 650)">
+    <path d="M 10 30 Q 40 10, 70 35 T 120 15 T 160 30 T 190 20" fill="none" stroke="#151515" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="45" x2="220" y2="45" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="110" y="65" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#151515" text-anchor="middle">Stefanie Chiras</text>
+    <text x="110" y="83" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="12" fill="#64748b" text-anchor="middle">SVP, Partner Ecosystem Success</text>
+  </g>
+
+  <!-- Footer Metadata -->
+  <text x="60" y="795" font-family="'Monaco', 'Courier New', monospace" font-size="12" fill="#64748b">Issue Date: February 18, 2026</text>
+  <text x="600" y="795" font-family="'Monaco', 'Courier New', monospace" font-size="12" fill="#64748b" text-anchor="middle">Certificate ID: RHCSA-2026-88147-PM</text>
+  <text x="1140" y="795" font-family="'Monaco', 'Courier New', monospace" font-size="12" fill="#64748b" text-anchor="end">Status: VERIFIED &amp; ACTIVE</text>
+</svg>
