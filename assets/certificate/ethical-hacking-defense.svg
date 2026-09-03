@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%">
+  <defs>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0fdf4"/>
+    </linearGradient>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 40 M 0 0 L 40 40" fill="none" stroke="#dcfce7" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="850" fill="url(#bgGrad)"/>
+  <rect width="1200" height="850" fill="url(#gridPattern)"/>
+
+  <!-- Outer Double Border -->
+  <rect x="25" y="25" width="1150" height="800" fill="none" stroke="#10b981" stroke-width="4" rx="8"/>
+  <rect x="35" y="35" width="1130" height="780" fill="none" stroke="#0f172a" stroke-width="1.5" rx="6"/>
+
+  <!-- Corner Decorative Accents -->
+  <path d="M 25 65 L 65 25 M 25 75 L 75 25" stroke="#10b981" stroke-width="2"/>
+  <path d="M 1175 65 L 1135 25 M 1175 75 L 1125 25" stroke="#10b981" stroke-width="2"/>
+  <path d="M 25 785 L 65 825 M 25 775 L 75 825" stroke="#10b981" stroke-width="2"/>
+  <path d="M 1175 785 L 1135 825 M 1175 775 L 1125 825" stroke="#10b981" stroke-width="2"/>
+
+  <!-- Top Header Branding Banner -->
+  <path d="M 35 35 L 1165 35 L 1165 140 L 35 140 Z" fill="#0f172a"/>
+  <path d="M 35 140 L 1165 140 L 1165 146 L 35 146 Z" fill="url(#emeraldGrad)"/>
+
+  <!-- Security Shield Logo Icon -->
+  <g transform="translate(70, 50)">
+    <rect x="0" y="0" width="62" height="62" rx="12" fill="url(#emeraldGrad)"/>
+    <path d="M 31 12 L 48 20 V 34 C 48 45, 38 52, 31 55 C 24 52, 14 45, 14 34 V 20 Z" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+    <path d="M 27 33 L 30 36 L 37 27" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="150" y="82" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="24" fill="#ffffff" letter-spacing="2">CYBER SECURITY INSTITUTE</text>
+  <text x="150" y="108" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="14" fill="#6ee7b7" letter-spacing="3">ETHICAL HACKING &amp; NETWORK DEFENSE DIVISION</text>
+
+  <!-- Badge Tag -->
+  <rect x="940" y="65" width="180" height="36" rx="18" fill="rgba(16, 185, 129, 0.2)" stroke="#10b981" stroke-width="1.5"/>
+  <text x="1030" y="88" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="13" fill="#34d399" text-anchor="middle" letter-spacing="1">VERIFIED CREDENTIAL</text>
+
+  <!-- Certificate Title Header -->
+  <text x="600" y="235" font-family="'Georgia', serif" font-weight="700" font-size="38" fill="#0f172a" text-anchor="middle" letter-spacing="3">CERTIFICATE OF MASTERY</text>
+  <text x="600" y="270" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="14" fill="#10b981" text-anchor="middle" letter-spacing="4">THIS CERTIFIES THAT</text>
+
+  <!-- Recipient Name -->
+  <text x="600" y="360" font-family="'Georgia', serif" font-weight="700" font-size="52" fill="#0f172a" text-anchor="middle">PRITAM MONDAL</text>
+  <line x1="300" y1="385" x2="900" y2="385" stroke="url(#emeraldGrad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Certificate Description -->
+  <text x="600" y="440" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="18" fill="#334155" text-anchor="middle">has successfully completed comprehensive practical evaluation and coursework in</text>
+  <text x="600" y="480" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="26" fill="#0f172a" text-anchor="middle" letter-spacing="1">Ethical Hacking &amp; Network Defense</text>
+
+  <text x="600" y="525" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#64748b" text-anchor="middle">Demonstrating advanced proficiency in vulnerability assessment, threat mitigation, network traffic inspection,</text>
+  <text x="600" y="550" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#64748b" text-anchor="middle">intrusion detection systems, and defensive cybersecurity operations.</text>
+
+  <!-- Gold Foil Seal Ribbon -->
+  <g transform="translate(600, 680)">
+    <path d="M -30 20 L -50 90 L -25 75 L 0 90 L -10 20 Z" fill="#b45309"/>
+    <path d="M 30 20 L 50 90 L 25 75 L 0 90 L 10 20 Z" fill="#d97706"/>
+    <circle cx="0" cy="0" r="55" fill="url(#goldGrad)" stroke="#b45309" stroke-width="3"/>
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="0" y="-10" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="11" fill="#78350f" text-anchor="middle" letter-spacing="1">SECURITY</text>
+    <text x="0" y="8" font-family="'Georgia', serif" font-weight="700" font-size="14" fill="#78350f" text-anchor="middle">DEFENSE</text>
+    <text x="0" y="24" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="10" fill="#78350f" text-anchor="middle" letter-spacing="1">PASSED</text>
+  </g>
+
+  <!-- Left Signature Block -->
+  <g transform="translate(180, 650)">
+    <path d="M 10 25 Q 30 5, 50 30 T 90 20 T 130 35 T 170 15" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="45" x2="220" y2="45" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="110" y="65" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#0f172a" text-anchor="middle">Victor Sterling</text>
+    <text x="110" y="83" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="12" fill="#64748b" text-anchor="middle">Head of Penetration Testing</text>
+  </g>
+
+  <!-- Right Signature Block -->
+  <g transform="translate(800, 650)">
+    <path d="M 10 30 Q 40 10, 70 35 T 120 15 T 160 30 T 190 20" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="45" x2="220" y2="45" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="110" y="65" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#0f172a" text-anchor="middle">Elena Rostova</text>
+    <text x="110" y="83" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="12" fill="#64748b" text-anchor="middle">Director of Cyber Defense</text>
+  </g>
+
+  <!-- Footer Metadata -->
+  <text x="60" y="795" font-family="'Monaco', 'Courier New', monospace" font-size="12" fill="#64748b">Issue Date: February 10, 2026</text>
+  <text x="600" y="795" font-family="'Monaco', 'Courier New', monospace" font-size="12" fill="#64748b" text-anchor="middle">Credential ID: EHND-2026-90482-PM</text>
+  <text x="1140" y="795" font-family="'Monaco', 'Courier New', monospace" font-size="12" fill="#64748b" text-anchor="end">Status: VERIFIED &amp; ACTIVE</text>
+</svg>
